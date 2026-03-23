@@ -10,7 +10,7 @@
 #import "SMAAdMobSmaatoNativeAdapter.h"
 
 static NSString *const kSMAAdMobCustomEventInfoAdSpaceIdKey = @"adspaceId";
-static NSString *const kSMAAdMobSmaatoNativeAdapterVersion = @"11.11.0.1";
+static NSString *const kSMAAdMobSmaatoNativeAdapterVersion = @"23.0.1.0";
 
 typedef void (^SMASMAAdMobMediatedNativeAdDeferredCallback)(id<GADMediatedUnifiedNativeAd> mediatedAd);
 
