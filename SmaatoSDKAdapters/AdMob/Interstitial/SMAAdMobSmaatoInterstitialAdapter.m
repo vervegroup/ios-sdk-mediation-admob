@@ -10,7 +10,7 @@
 
 static NSString *const kSMAAdMobCustomEventInfoPublisherIdKey = @"publisherId";
 static NSString *const kSMAAdMobCustomEventInfoAdSpaceIdKey = @"adspaceId";
-static NSString *const kSMAAdMobSmaatoInterstitialAdapterVersion = @"23.0.1.0";
+static NSString *const kSMAAdMobSmaatoInterstitialAdapterVersion = @"23.1.0.0";
 
 @interface SMAAdMobSmaatoInterstitialAdapter () <SMAInterstitialDelegate, GADMediationInterstitialAd, GADMediationAdapter>
 @property (nonatomic) SMAInterstitial *interstitial;
