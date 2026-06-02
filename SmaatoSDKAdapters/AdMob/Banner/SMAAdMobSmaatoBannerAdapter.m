@@ -10,7 +10,7 @@
 #import "SMAAdMobSmaatoBannerAdapter.h"
 
 static NSString *const kSMAAdMobCustomEventInfoAdSpaceIdKey = @"adspaceId";
-static NSString *const kSMAAdMobSmaatoBannerAdapterVersion = @"23.1.0.0";
+static NSString *const kSMAAdMobSmaatoBannerAdapterVersion = @"23.2.0.0";
 
 @interface SMAAdMobSmaatoBannerAdapter () <GADMediationBannerAd, SMABannerViewDelegate>
 @property (nonatomic) SMABannerView *bannerView;
