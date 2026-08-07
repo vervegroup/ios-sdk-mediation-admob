@@ -13,8 +13,6 @@ let package = Package(
         )
     ],
     dependencies: [
-        // Must point at the first SmaatoSDK release that ships without bundled
-        // adapters (adapter-free Package.swift). Bump on every SDK release.
         .package(url: "https://github.com/vervegroup/Smaato-ios-sdk-standalone.git", exact: "23.2.1"),
         .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", from: "13.0.0")
     ],
